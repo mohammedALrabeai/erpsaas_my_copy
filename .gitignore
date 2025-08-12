@@ -22,9 +22,16 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
-/public/build
+# /public/build
 /storage/pail
 .env.backup
 .env.production
 .phpactor.json
 auth.json
+
+
+
+# نستثني الملفات الناتجة التي نريد رفعها:
+!public/build
+!public/css
+!public/js
